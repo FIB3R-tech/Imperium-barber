@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Imperium Barber Club: uma barbearia premium fictícia. Projeto de prática em HTML, CSS e JavaScript.">
+  <meta name="theme-color" content="#151916">
+  <title>Imperium Barber Club — Seu estilo. Sua assinatura.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Imperium Barber Club, início">IMPERIUM<span>BARBER CLUB</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navegacao" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="navegacao" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a><a href="#sobre">O clube</a><a href="#avaliacoes">Avaliações</a><a class="nav-cta" href="#contato">Reserve seu horário ↗</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <p class="eyebrow">TRADIÇÃO NO CUIDADO. ATITUDE NO ESTILO.</p>
+        <h1 id="titulo">Seu estilo.<br>Sua <em>assinatura.</em></h1>
+        <p class="intro">Um bom corte muda o seu dia. Aqui, cada detalhe é pensado para você sair com a sua melhor versão.</p>
+        <div class="actions"><a class="button" href="#contato">Agendar meu horário <span aria-hidden="true">↗</span></a><a class="text-link" href="#servicos">Conhecer os serviços</a></div>
+        <p class="hero-note">CORTE PRECISO <span>•</span> CUIDADO SEM PRESSA <span>•</span> ESTILO AUTÊNTICO</p>
+      </div>
+      <div class="hero-panel" aria-label="Manifesto Imperium">
+        <span class="panel-top">IMPERIUM / BARBER CLUB</span>
+        <span class="monogram" aria-hidden="true">I.</span>
+        <p>O clássico nunca<br>perde a presença.</p>
+        <div class="panel-bottom"><span>FEITO COM TEMPO.<br>PENSADO PARA VOCÊ.</span><span aria-hidden="true">✦</span></div>
+      </div>
+    </section>
+    <div class="ribbon" aria-hidden="true">PRECISÃO NO CORTE <span>✦</span> PERSONALIDADE NO VISUAL <span>✦</span> RESPEITO AO SEU TEMPO</div>
+    <section class="section wrap" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 / NOSSOS SERVIÇOS</p><h2 id="servicos-titulo">O seu próximo<br><em>melhor visual.</em></h2></div><p>Do ajuste de rotina à mudança de estilo.<br>Escolha o seu ritual.</p></div>
+      <div class="services">
+        <article class="service reveal"><span class="number">01</span><h3>Corte de cabelo</h3><p>Tesoura, máquina e acabamento preciso. Um corte que combina com você.</p><div class="price"><strong>R$ 60</strong><span>45 min</span></div><a href="#contato" data-service="Corte de cabelo">Escolher corte <span aria-hidden="true">↗</span></a></article>
+        <article class="service reveal"><span class="number">02</span><h3>Barba completa</h3><p>Toalha quente, desenho da barba e finalização para um cuidado completo.</p><div class="price"><strong>R$ 45</strong><span>30 min</span></div><a href="#contato" data-service="Barba completa">Escolher barba <span aria-hidden="true">↗</span></a></article>
+        <article class="service featured reveal"><span class="number">03 <small>O RITUAL COMPLETO</small></span><h3>Corte + barba</h3><p>O encontro perfeito entre um corte alinhado e uma barba bem cuidada.</p><div class="price"><strong>R$ 95</strong><span>75 min</span></div><a href="#contato" data-service="Corte + barba">Escolher o combo <span aria-hidden="true">↗</span></a></article>
+      </div>
+      <p class="fine-print">Valores e durações ilustrativos para este projeto de prática.</p>
+    </section>
+    <section class="about" id="sobre" aria-labelledby="sobre-titulo"><div class="wrap about-grid">
+      <div class="reveal"><p class="eyebrow">02 / O CLUBE</p><h2 id="sobre-titulo">Mais que um corte.<br><em>Um tempo seu.</em></h2></div>
+      <div class="reveal"><p class="about-lead">Sente na cadeira. Desacelere.<br>O resto é com a gente.</p><p>A Imperium nasceu da ideia de resgatar o ritual da barbearia: boa conversa, atenção de verdade e um trabalho bem-feito. Um espaço onde o clássico encontra o seu jeito de ser.</p><div class="values"><span>Atendimento<br><strong>individual</strong></span><span>Acabamento<br><strong>nos detalhes</strong></span><span>Ambiente<br><strong>acolhedor</strong></span></div></div>
+    </div></section>
+    <section class="section wrap" id="avaliacoes" aria-labelledby="avaliacoes-titulo">
+      <div class="section-heading reveal"><div><p class="eyebrow">03 / QUEM SENTA NA CADEIRA</p><h2 id="avaliacoes-titulo">O cuidado deixa<br><em>uma boa impressão.</em></h2></div><p>Depoimentos fictícios<br>para demonstrar esta seção.</p></div>
+      <div class="reviews">
+        <figure class="review reveal"><div class="stars" aria-label="5 de 5 estrelas">★★★★★</div><blockquote>“Entenderam exatamente o corte que eu queria. Atendimento tranquilo e um acabamento impecável.”</blockquote><figcaption><span class="avatar" aria-hidden="true">RM</span><span>Rafael M.<small>Cliente fictício</small></span></figcaption></figure>
+        <figure class="review reveal"><div class="stars" aria-label="5 de 5 estrelas">★★★★★</div><blockquote>“A experiência da toalha quente virou meu momento favorito da semana. Dá vontade de voltar.”</blockquote><figcaption><span class="avatar" aria-hidden="true">LC</span><span>Lucas C.<small>Cliente fictício</small></span></figcaption></figure>
+        <figure class="review reveal"><div class="stars" aria-label="5 de 5 estrelas">★★★★★</div><blockquote>“Ambiente agradável e muita atenção aos detalhes. Saí com o visual renovado e a autoestima lá em cima.”</blockquote><figcaption><span class="avatar" aria-hidden="true">AS</span><span>André S.<small>Cliente fictício</small></span></figcaption></figure>
+      </div>
+    </section>
+    <section class="contact wrap reveal" id="contato" aria-labelledby="contato-titulo">
+      <div><p class="eyebrow">04 / SEU HORÁRIO, SEU MOMENTO</p><h2 id="contato-titulo">Vamos cuidar<br>do seu <em>estilo?</em></h2><p>Escolha seu serviço e fale com a gente pelo WhatsApp.</p><a class="button" id="whatsapp" href="#aviso-contato">Conversar no WhatsApp <span aria-hidden="true">↗</span></a><p id="aviso-contato" class="contact-notice" role="status">Demonstração: o WhatsApp ainda não está configurado.</p><noscript><p>Este projeto não possui um número real de WhatsApp.</p></noscript></div>
+      <div class="contact-details"><div><h3>Onde estamos</h3><p>Rua Exemplo, 123 — Centro<br>São Paulo / SP</p><small>Endereço fictício, apenas ilustrativo.</small></div><div><h3>Horário de atendimento</h3><p>Terça a sexta <span>10h às 20h</span><br>Sábado <span>9h às 18h</span><br>Domingo e segunda <span>Fechado</span></p></div><p class="appointment-note">Atendimento com hora marcada.</p></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#inicio">IMPERIUM<span>BARBER CLUB</span></a><p>© <span id="year">2026</span> Imperium Barber Club.<br>Marca fictícia · Projeto de estudo e portfólio.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+</body>
+</html>
